@@ -1,8 +1,8 @@
 # CST8132 322 Lab Exam
 
-Student #:
+Student #:041122593
 
-Student Name:
+Student Name:Bao Vo
 
 ## Notes and Resources
 1. You have access to all course material available in Brightspace.
