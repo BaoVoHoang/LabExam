@@ -7,5 +7,7 @@ public interface Student {
     Double getGPA();
     void setName (String name);
     String getName ();
+    void setIsfullTime(boolean isfullTime);
+    boolean getIsfullTime();
     String toString();
 }

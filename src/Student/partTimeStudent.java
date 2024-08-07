@@ -1,23 +1,24 @@
 package Student;
 
-public class FulltimeStudent implements Student{
+public class partTimeStudent implements Student{
     private Integer id;
     private String name;
     private Double gpa;
-    public FulltimeStudent(){
+   
+
+    public partTimeStudent(){
         id = null;
         name = "";
         gpa = 0.0;
-        isfullTime = true;
     }
 
-    public FulltimeStudent(Integer id, String name){
+    public partTimeStudent(Integer id, String name){
         // TODO 
         this.id = id;
         this.name = name;
     }
 
-    public FulltimeStudent(Integer id, String name, Double gpa){
+    public partTimeStudent(Integer id, String name, Double gpa){
         //TODO
         this.id = id;
         this.name = name;
@@ -51,6 +52,7 @@ public class FulltimeStudent implements Student{
         // TODO
         this.name = name;
     }
+
 
     @Override
     public String getName() {
