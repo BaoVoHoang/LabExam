@@ -8,7 +8,7 @@ public class FulltimeStudent implements Student{
         id = null;
         name = "";
         gpa = 0.0;
-        isfullTime = true;
+
     }
 
     public FulltimeStudent(Integer id, String name){
